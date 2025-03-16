@@ -1,10 +1,16 @@
----
-title: "Git Submodules"
-date: 2025-03-02T11:30:00-05:00
-lastmod: 2025-03-02T11:30:00-05:00
-#menu: "main"
-#weight: 50
----
++++
+title = 'Git Submodules: An Overview'
+description = "Git submodules let you embed external repositories as dependencies within your project at specific commits, keeping their histories separate."
+summary = "Git submodules let you embed external repositories as dependencies within your project at specific commits, keeping their histories separate."
+date = '2025-03-16T00:39:40-04:00'
+lastmod = '2025-03-16T00:39:40-04:00'
+keywords = []
+tags = ['git', 'submodules']
+categories = []
+draft = true
+[params]
+    author = 'Manikandaraj Srinivasan'
++++
 
 # Git Submodules: An Overview
 

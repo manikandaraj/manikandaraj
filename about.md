@@ -2,6 +2,8 @@
 title: "About Me"
 date: 2025-03-01T01:30:00-05:00
 lastmod: 2025-03-01T01:30:00-05:00
+layout: "single"
+draft: false
 #menu: "main"
 #weight: 50
 ---
