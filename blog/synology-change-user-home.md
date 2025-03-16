@@ -7,7 +7,7 @@ lastmod = '2025-03-15T23:22:42-04:00'
 keywords = ['synology', 'nas', 'home network']
 tags = ['synology', 'nas', 'home network']
 categories = []
-draft = true
+draft = false 
 [params]
     author = 'Manikandaraj Srinivasan'
 +++
