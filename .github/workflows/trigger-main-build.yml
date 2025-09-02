@@ -16,11 +16,11 @@ jobs:
     - name: Checkout manikandaraj content repository
       uses: actions/checkout@v4
     
-    - name: Trigger MANIKANDARJ.COM main repository deployment
+    - name: Trigger MANIKANDARAJ.COM main repository deployment
       uses: peter-evans/repository-dispatch@v3
       with:
         token: ${{ secrets.MAIN_REPO_TOKEN }}
-        repository: manikandaraj/manikandarj.com
+        repository: manikandaraj/manikandaraj.com
         event-type: content-updated
         client-payload: |
           {
