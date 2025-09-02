@@ -1,0 +1,41 @@
+# File: .github/workflows/trigger-main-build.yml
+# Repository: manikandaraj (Content Repository)
+
+name: Trigger MANIKANDARAJ.COM Build (Content Update)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  trigger-manikandaraj-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout manikandaraj content repository
+      uses: actions/checkout@v4
+    
+    - name: Trigger MANIKANDARJ.COM main repository deployment
+      uses: peter-evans/repository-dispatch@v3
+      with:
+        token: ${{ secrets.MAIN_REPO_TOKEN }}
+        repository: manikandaraj/manikandarj.com
+        event-type: content-updated
+        client-payload: |
+          {
+            "content_commit": "${{ github.sha }}",
+            "content_ref": "${{ github.ref }}",
+            "content_repository": "${{ github.repository }}",
+            "triggered_by": "manikandaraj-content-repository",
+            "resource_bind": "MANIKANDARJ.COM",
+            "timestamp": "${{ github.event.head_commit.timestamp }}"
+          }
+    
+    - name: Content update notification
+      run: |
+        echo "📝 MANIKANDARJ.COM content updated!"
+        echo "📄 Content commit: ${{ github.sha }}"
+        echo "🔗 Repository: ${{ github.repository }}"
+        echo "🚀 Triggered main repository build for MANIKANDARJ.COM"
+        echo "⏰ Update time: $(date)"
