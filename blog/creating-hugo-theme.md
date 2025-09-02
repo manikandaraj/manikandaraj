@@ -174,7 +174,7 @@ This avoids duplication and makes it easier to maintain common sections like nav
 Shortcodes allow you to create reusable content snippets that can be inserted directly into Markdown files. For instance, you might create a shortcode to display images with captions or embed videos. Their syntax in content files looks like:
 
 ```
-{{< image src="/images/photo.jpg" caption="A beautiful view" >}}
+![Description](images/photo.jpg)
 ```
 
 Shortcodes are stored in the ```layouts/shortcodes/``` directory.
