@@ -28,14 +28,14 @@ jobs:
             "content_ref": "${{ github.ref }}",
             "content_repository": "${{ github.repository }}",
             "triggered_by": "manikandaraj-content-repository",
-            "resource_bind": "MANIKANDARJ.COM",
+            "resource_bind": "MANIKANDARAJ.COM",
             "timestamp": "${{ github.event.head_commit.timestamp }}"
           }
     
     - name: Content update notification
       run: |
-        echo "📝 MANIKANDARJ.COM content updated!"
+        echo "📝 MANIKANDARAJ.COM content updated!"
         echo "📄 Content commit: ${{ github.sha }}"
         echo "🔗 Repository: ${{ github.repository }}"
-        echo "🚀 Triggered main repository build for MANIKANDARJ.COM"
+        echo "🚀 Triggered main repository build for MANIKANDARAJ.COM"
         echo "⏰ Update time: $(date)"
