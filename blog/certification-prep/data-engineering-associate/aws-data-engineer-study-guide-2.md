@@ -1,3 +1,16 @@
++++
+title = "AWS Certification - Data Engineer Associate - Study Guide 2"
+description = "Study Guide for AWS Data Engineer Associate. 🚀"
+summary = "Study Guide for AWS Data Engineer Associate. 🚀"
+date = '2025-03-16T00:39:40-04:00'
+lastmod = '2025-03-16T00:39:40-04:00'
+keywords = []
+tags = ['aws', 'certification', 'learning', 'guide']
+categories = []
+draft = false 
+[params]
+    author = 'Manikandaraj Srinivasan'
++++
 # AWS Certified Data Engineer Associate - Complete Study Guide
 
 ## Table of Contents

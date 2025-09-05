@@ -1,3 +1,17 @@
++++
+title = "AWS Data Engineering Services - Quick Reference Cheat Sheet"
+description = "Services you need to be learn for Data Engineer Associate Exam. 🚀"
+summary = "Services you need to learn for Data Engineer Associate Exam. 🚀"
+date = '2025-03-16T00:39:40-04:00'
+lastmod = '2025-03-16T00:39:40-04:00'
+keywords = []
+tags = ['aws', 'certification', 'learning', 'guide']
+categories = []
+draft = false 
+[params]
+    author = 'Manikandaraj Srinivasan'
++++
+
 # AWS Data Engineering Services - Quick Reference Cheat Sheet
 
 ## Data Ingestion Services
