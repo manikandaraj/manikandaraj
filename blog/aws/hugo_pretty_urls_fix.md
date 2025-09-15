@@ -1,3 +1,17 @@
++++
+title = "Hugo Pretty URLs CloudFront Fix"
+description = "Resolving Directory Index Issues for Static Sites"
+summary = "Resolving Directory Index Issues for Static Sites"
+date = '2025-09-10T00:18:30-04:00'
+lastmod = '2025-09-10T00:18:30-04:00'
+keywords = []
+tags = ['hugo', 'aws', 'cloudfront', 'pretty-url']
+categories = []
+draft = false 
+[params]
+    author = 'Manikandaraj Srinivasan'
++++
+
 # Hugo Pretty URLs CloudFront Fix
 ## Resolving Directory Index Issues for Static Sites
 

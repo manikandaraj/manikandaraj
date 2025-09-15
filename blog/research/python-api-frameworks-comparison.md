@@ -1,5 +1,18 @@
-# Python REST API Frameworks Comparison 2025
++++
+title = "Python REST API Frameworks Comparison 2025"
+description = "Python REST API Frameworks Comparison 2025"
+summary = "Python REST API Frameworks Comparison 2025"
+date = '2025-09-10T00:18:30-04:00'
+lastmod = '2025-09-10T00:18:30-04:00'
+keywords = []
+tags = ['programming', 'python', 'fast-api', 'django-rest']
+categories = []
+draft = false 
+[params]
+    author = 'Manikandaraj Srinivasan'
++++
 
+# Python REST API Frameworks Comparison 2025
 ## Framework Overview
 
 ### 1. **FastAPI** ⭐ RECOMMENDED
