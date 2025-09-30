@@ -1099,4 +1099,3 @@ Prioritize study time based on weights:
 
 ---
 
-**STATUS**: Part 1 Complete. Ready for questions/answers for Part 2.
